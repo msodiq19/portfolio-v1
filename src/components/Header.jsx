@@ -27,10 +27,10 @@ const Header = () => {
             most responsive application possible..
           </p>
           <div className="flex space-x-2">
-            <a href="#">
+            <a href="https://www.linkedin.com/in/sodiq19/">
               <img src={linkedin} alt="" />
             </a>
-            <a href="#">
+            <a href="https://github.com/sodiq2000">
               <img src={github} alt="" />
             </a>
           </div>
