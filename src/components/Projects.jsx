@@ -1,4 +1,4 @@
-import React from 'react'
+import { projects as projectsData} from '../data'
 
 import { FiFolder, FiExternalLink } from "react-icons/fi";
 
@@ -33,53 +33,10 @@ const ProjectCard = ({ project }) => {
   );
 };
 
-const projectsData = [
-  {
-    name: "Maplerad",
-    description:
-      "I worked on all things frontend related at Maplerad. Maplerad allows you to embed banking services into your application.",
-    technologies: ["Nuxt", "Tailwind", "Typescript"],
-    externalLink: "https://maplerad.com",
-  },
-  {
-    name: "Stranerd",
-    description:
-      "Building various tools to enable students to collaborate, innovate and achieve academic success.",
-    technologies: ["Vue", "Tailwind", "Ionic"],
-    externalLink: "https://stranerd.com",
-  },
-  {
-    name: "Cloundenly",
-    description:
-      "I worked on a suite of tools that enabled the easy management of HR, Benefits and Payroll for Organizations.",
-    technologies: ["Vue", "Tailwind", "Vuex"],
-    externalLink: "https://cloundenly.com",
-  },
-  {
-    name: "Kanban",
-    description: "An open-source kanban board built with Nuxt 3 and Tailwind.",
-    technologies: ["Nuxt 3", "Tailwind CSS", "vue-draggable"],
-    externalLink: "https://kanban.com",
-  },
-  {
-    name: "Vue3 Dashboard",
-    description:
-      "I saw a very beautiful dashboard template in Vanilla JS and decided to recreate it in Vue.",
-    technologies: ["Vue", "Tailwind", "Chart.js"],
-    externalLink: "https://vue3dashboard.com",
-  },
-  {
-    name: "Vue3 Animation",
-    description:
-      "A collection of Vue 3 animations made with different libraries from GSAP to hover effects and just plain CSS animations.",
-    technologies: ["Vue", "GSAP", "Tailwind"],
-    externalLink: "https://vue3animation.com",
-  },
-];
 
 const Projects = () => {
   return (
-    <div className="bg-gray-100 w-[80%] mx-auto min-h-screen py-8">
+    <div className="bg-gray-100 w-[80%] mx-auto max-h-screen py-8">
       <h1 className="text-3xl font-bold mb-8">My Projects</h1>
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
         {projectsData.map((project, index) => (

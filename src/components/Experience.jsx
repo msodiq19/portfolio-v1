@@ -1,36 +1,6 @@
+import { experiences as data } from '../data'
 
-
-const Projects = () => {
-  const data = [
-    {
-      period: "2023 — Present",
-      position: "Lead Frontend Engineer",
-      company: "Monietracka",
-      companyLink: "",
-      companyLogo: "",
-      role: "Frontend Engineer",
-      description:
-        "Build, style, and ship high-quality websites, design systems, mobile apps, and digital experiences for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within the engineering department through close collaboration, knowledge shares, and spearheading the development of internal tools.",
-      technologies: [
-        "JavaScript",
-        "TypeScript",
-        "HTML & SCSS",
-        "React",
-        "Next.js",
-      ],
-    },
-    {
-      period: "2020 — Dec 2023",
-      position: "Frontend Developer",
-      company: "Freelance",
-      companyLink: "",
-      companyLogo: "",
-      description:
-        "Developed and styled interactive web apps for Apple Music, including the user interface of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.",
-      technologies: ["HTML/CSS", "SCSS", "JavaScript", "React.js"],
-    },
-    // ... Add more entries for other experiences
-  ];
+const Experiences = () => {
 
   return (
     <section id="projects" className="container mx-auto my-16">
@@ -90,4 +60,4 @@ const Projects = () => {
   );
 }
 
-export default Projects
+export default Experiences

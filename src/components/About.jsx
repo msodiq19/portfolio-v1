@@ -1,4 +1,4 @@
-// AboutMe.js
+import { skills as skillsData} from '../data'
 
 const About = () => {
   return (
@@ -26,63 +26,11 @@ const About = () => {
             Below are a list of my tools and languages
           </h3>
           <div className="flex flex-wrap gap-2 mb-4">
-            <span className="bg-gray-100 border border-gray-300 text-gray-800 px-2 py-1 rounded-md">
-              Javascript
-            </span>
-            <span className="bg-gray-100 border border-gray-300 text-gray-800 px-2 py-1 rounded-md">
-              Vue & Vuex
-            </span>
-            <span className="bg-gray-100 border border-gray-300 text-gray-800 px-2 py-1 rounded-md">
-              Ionic
-            </span>
-            <span className="bg-gray-100 border border-gray-300 text-gray-800 px-2 py-1 rounded-md">
-              React
-            </span>
-            <span className="bg-gray-100 border border-gray-300 text-gray-800 px-2 py-1 rounded-md">
-              Python
-            </span>
-            <span className="bg-gray-100 border border-gray-300 text-gray-800 px-2 py-1 rounded-md">
-              Tensorflow.js
-            </span>
-            <span className="bg-gray-100 border border-gray-300 text-gray-800 px-2 py-1 rounded-md">
-              Figma
-            </span>
-            <span className="bg-gray-100 border border-gray-300 text-gray-800 px-2 py-1 rounded-md">
-              Adobe XD
-            </span>
-            <span className="bg-gray-100 border border-gray-300 text-gray-800 px-2 py-1 rounded-md">
-              Android Studio
-            </span>
-            <span className="bg-gray-100 border border-gray-300 text-gray-800 px-2 py-1 rounded-md">
-              Firebase
-            </span>
-            <span className="bg-gray-100 border border-gray-300 text-gray-800 px-2 py-1 rounded-md">
-              Mongodb
-            </span>
-            <span className="bg-gray-100 border border-gray-300 text-gray-800 px-2 py-1 rounded-md">
-              WebSockets
-            </span>
-            <span className="bg-gray-100 border border-gray-300 text-gray-800 px-2 py-1 rounded-md">
-              WebRTC
-            </span>
-            <span className="bg-gray-100 border border-gray-300 text-gray-800 px-2 py-1 rounded-md">
-              Animations
-            </span>
-            <span className="bg-gray-100 border border-gray-300 text-gray-800 px-2 py-1 rounded-md">
-              APIs
-            </span>
-            <span className="bg-gray-100 border border-gray-300 text-gray-800 px-2 py-1 rounded-md">
-              Plugins
-            </span>
-            <span className="bg-gray-100 border border-gray-300 text-gray-800 px-2 py-1 rounded-md">
-              Chrome Extensions
-            </span>
-            <span className="bg-gray-100 border border-gray-300 text-gray-800 px-2 py-1 rounded-md">
-              Testing (unit and E2E)
-            </span>
-            <span className="bg-gray-100 border border-gray-300 text-gray-800 px-2 py-1 rounded-md">
-              System Design
-            </span>
+            {skillsData.map((skill, idx) => (
+              <span key={idx} className="bg-gray-100 border border-gray-300 text-gray-800 px-2 py-1 rounded-md">
+                {skill}
+              </span>
+            ))}
           </div>
         </div>
         <div className="md:w-[30%] hidden md:block">
