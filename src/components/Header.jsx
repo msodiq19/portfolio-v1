@@ -32,10 +32,14 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={linkedin} alt="" />
+              <img src={linkedin} alt="linkedin_icon" />
             </a>
-            <a href="https://github.com/sodiq2000" target="_blank" rel="noopener noreferrer">
-              <img src={github} alt="" />
+            <a
+              href="https://github.com/msodiq19"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={github} alt="github_icon" />
             </a>
           </div>
         </div>
