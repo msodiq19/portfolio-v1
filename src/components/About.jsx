@@ -58,7 +58,7 @@ const About = () => {
           >
             Over the years, I have had the opportunity to work with amazing
             people, and on diverse projects. I recently started working with
-            MonieTracka. A new fintech startup that is yet to go live. When I am
+            QuantumSphere Technologies Ltd. A new startup currently building a fintech solution. When I am
             not writing code, I am usually reading novels and binging an anime.
           </motion.p>
 

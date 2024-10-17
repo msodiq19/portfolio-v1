@@ -13,13 +13,14 @@ export const skills = [
   "APIs",
   "Testing (unit and E2E)",
   "System Design",
+  "TensorFlow",
 ];
 
 export const experiences = [
   {
     period: "2023 — Present",
-    position: "Lead Frontend Engineer",
-    company: "Monietracka",
+    position: "Frontend Engineer",
+    company: "QuantumSphere Technologies Ltd.",
     companyLink: "",
     companyLogo: "",
     role: "Frontend Engineer",
