@@ -2,6 +2,7 @@ import { projects as projectsData} from '../data'
 import { motion} from 'framer-motion'
 import { FiFolder, FiExternalLink } from "react-icons/fi";
 
+
 const ProjectCard = ({ project }) => {
   return (
     <motion.div
@@ -24,7 +25,7 @@ const ProjectCard = ({ project }) => {
         </div>
       </div>
       <p className="text-gray-600 mb-4">{project.description}</p>
-      <div className="flex space-x-2">
+      <div className="flex flex-wrap gap-2">
         {project.technologies.map((tech, index) => (
           <div
             key={index}

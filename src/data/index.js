@@ -4,10 +4,19 @@ export const skills = [
   "React & Redux",
   "Vue & Vuex",
   "Python",
+  "AI/ML",
+  "TypeScript",
+  "Next.js",
+  "Nuxt.js",
   "Node.js",
+  "PHP",
+  "Laravel",
+  "TailwindCSS",
   "Figma",
   "Firebase",
   "Mongodb",
+  "MySQL",
+  "PostgreSQL",
   "WebSockets",
   "WebRTC",
   "APIs",
@@ -18,62 +27,78 @@ export const skills = [
 
 export const experiences = [
   {
-    period: "2023 — Present",
+    period: "2023 — 2024",
     position: "Frontend Engineer",
     company: "QuantumSphere Technologies Ltd.",
     companyLink: "",
     companyLogo: "",
     role: "Frontend Engineer",
     description:
-      "Create, enhance, and launch high-quality websites for a diverse array of projects including the admin dashboard, landing page, api logger and more. Provide leadership within the engineering department through close collaboration, knowledge shares, and spearheading the development of internal tools.",
+      "Developed and optimized websites and internal tools, enhancing dashboards, landing pages, and APIs while fostering team collaboration.",
     technologies: [
       "JavaScript",
       "TypeScript",
       "HTML & SCSS",
+      "TailwindCSS",
+      "CI/CD",
+      "Bitbucket",
       "React",
       "Next.js",
     ],
   },
   {
-    period: "2020 — Dec 2023",
+    period: "2020 — Present",
     position: "Frontend Developer",
     company: "Freelance",
     companyLink: "",
     companyLogo: "",
     description:
-      "Build, style, and ship high-quality websites, and digital experiences for a diverse array of projects for clients including 4Runner Global Ltd, DFS Services, Safe Haven Defence, and more",
+      "Created engaging websites and digital experiences for clients such as 4Runner Global Ltd, DFS Services, and Safe Haven Defence.",
     technologies: [
       "HTML/CSS",
       "SCSS",
+      "TailwindCSS",
+      "Laravel",
+      "PHP",
       "JavaScript",
       "TypeScript",
       "React.js",
+      "Next.js",
       "Nuxt.js",
+      "Node.js",
     ],
   },
   // ... Add more entries for other experiences
 ];
 
+
 export const projects = [
   {
     name: "Safe Haven Defence",
     description:
-      "I Improved existing codebase, added new features and functionalities",
-    technologies: ["Next", "Material UI", "Redux"],
+      "Revamped the security platform by improving the UI/UX, adding new features, and optimizing performance. Introduced scalable state management and security modules, making the app more user-friendly and efficient.",
+    technologies: ["Next.js", "Material UI", "Redux Toolkit"],
     externalLink: "https://devapp.safehavendefense.com/",
   },
   {
     name: "4Runner Global Ltd.",
     description:
-      "Built landing page to showcase the logistic company and improve reach. Also, I built the in-house dashboard",
-    technologies: ["React", "Tailwind"],
+      "Designed and built a sleek website for a logistics company, complete with real-time shipment tracking. Also created an internal dashboard to streamline operations and improve client engagement.",
+    technologies: ["React.js", "Tailwind CSS", "Chart.js"],
     externalLink: "https://4runnerglobal.com",
   },
   {
     name: "DFS Services",
     description:
-      "I built a landing for the logistics company to improve reach and visibilty",
-    technologies: ["React", "Tailwind"],
+      "Developed a modern logistics website with features like automated quotes and service customization. Added SEO optimizations to boost visibility and organic traffic.",
+    technologies: ["React.js", "Tailwind CSS", "Framer Motion"],
     externalLink: "https://dfs-services.netlify.app",
   },
+  {
+    name: "Excellent Link Academy",
+    description:
+      "Built a full-stack e-learning platform with student and admin dashboards, progress tracking, and payment integration. Supported over 500 active users with seamless functionality.",
+    technologies: ["Laravel", "PHP", "React.js", "TypeScript", "TailwindCSS"],
+    externalLink: "https://excellent-link-academy-a4929899cd37.herokuapp.com",
+  }
 ];

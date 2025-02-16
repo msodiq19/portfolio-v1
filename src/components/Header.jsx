@@ -21,10 +21,11 @@ const Header = () => {
         <div className="w-[80%] mx-auto md:h-full flex flex-col justify-center items-center md:items-start text-center md:text-left">
           <h1 className="text-3xl font-bold">Muhammed Sodiq</h1>
           <p className="my-2 w-[350px] md:w-[50%]">
-            Hi, I&#39;m a software engineer specialized in building Frontend
-            applications, occasionally backend and rarely design. I take pride
-            in my work and ensure I deliver the fastest, most accessible and
-            most responsive application possible..
+            Hi, I&#39;m a software engineer who enjoys solving problems through code.
+            My primary focus is on crafting accessible and responsive frontend applications, 
+            but I&#39;ve also built a solid foundation in backend work. I’m always on the lookout for bugs and security issues, 
+            striving to ensure every project I work on is not only fast and accessible
+            but also robust in every way.
           </p>
           <div className="flex space-x-2">
             <a

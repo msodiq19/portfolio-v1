@@ -44,7 +44,7 @@ const About = () => {
             transition={{ ease: "easeInOut", duration: 1 }}
             className="mb-4"
           >
-            I am a Frontend Engineer who loves building crazy ideas and trying
+            I am a Frontend Engineer who loves building innovative ideas and trying
             out new things. I got into programming in 2018 when I stumbled
             accross C language on Sololearn and then started learning Web
             Development in 2019.
@@ -57,9 +57,9 @@ const About = () => {
             className="mb-4"
           >
             Over the years, I have had the opportunity to work with amazing
-            people, and on diverse projects. I recently started working with
-            QuantumSphere Technologies Ltd. A new startup currently building a fintech solution. When I am
-            not writing code, I am usually reading novels and binging an anime.
+            people, and on diverse projects. I recently worked with
+            QuantumSphere Technologies Ltd. A startup currently building a fintech solution and AI products. When I am
+            not writing code, I am usually looking for vulnerabilities in systems(bug bounty), reading islamic text, and novels.
           </motion.p>
 
           <motion.h3
