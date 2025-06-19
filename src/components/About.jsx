@@ -35,7 +35,7 @@ const About = () => {
             transition={{ ease: "easeInOut", duration: 1 }}
             className="mb-4"
           >
-            Hello! 👋🏾 My name is Muhammed Sodiq...
+            Hello! 👋🏾 My name is Muhammed Sodiq.
           </motion.p>
 
           <motion.p
@@ -44,10 +44,9 @@ const About = () => {
             transition={{ ease: "easeInOut", duration: 1 }}
             className="mb-4"
           >
-            I am a Frontend Engineer who loves building innovative ideas and trying
-            out new things. I got into programming in 2018 when I stumbled
-            accross C language on Sololearn and then started learning Web
-            Development in 2019.
+            I am a Frontend Engineer based in Lagos, Nigeria with over 3 years of experience building fast, scalable, and
+            user-friendly web applications. I specialize in modern JavaScript frameworks and have a strong foundation in
+            creating engaging UIs, optimizing frontend performance, and contributing to full product lifecycles.
           </motion.p>
 
           <motion.p
@@ -56,10 +55,11 @@ const About = () => {
             transition={{ ease: "easeInOut", duration: 1 }}
             className="mb-4"
           >
-            Over the years, I have had the opportunity to work with amazing
-            people, and on diverse projects. I recently worked with
-            QuantumSphere Technologies Ltd. A startup currently building a fintech solution and AI products. When I am
-            not writing code, I am usually looking for vulnerabilities in systems(bug bounty), reading islamic text, and novels.
+            I&apos;ve had the opportunity to work with companies like QuantumSphere Technologies,
+            developing admin dashboards with performance enhancements, integrating REST APIs, and setting
+            up CI/CD pipelines. I&apos;m particularly passionate about creating responsive, accessible web experiences
+            that deliver both functionality and aesthetics. When I&apos;m not coding, I enjoy hunting for bugs in systems,
+            reading Islamic texts, and novels.
           </motion.p>
 
           <motion.h3

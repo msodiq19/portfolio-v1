@@ -1,59 +1,147 @@
 export const skills = [
   "HTML & CSS",
   "JavaScript",
-  "React & Redux",
-  "Vue & Vuex",
-  "Python",
-  "AI/ML",
   "TypeScript",
+  "React.js",
   "Next.js",
+  "Redux Toolkit",
+  "Vue.js & Vuex",
   "Nuxt.js",
   "Node.js",
+  "Express.js",
+  "Inertia.js",
+  "Astro",
+  "TailwindCSS",
+  "Material UI",
+  "SCSS/SASS",
   "PHP",
   "Laravel",
-  "TailwindCSS",
+  "RESTful APIs",
+  "GraphQL",
+  "Git & GitHub",
+  "CI/CD",
+  "GitHub Actions",
+  "Responsive Design",
+  "Accessibility (WCAG)",
+  "UX/UI Design",
   "Figma",
+  "Cloudinary",
+  "Yjs",
+  "Socket.IO",
+  "JWT Authentication",
   "Firebase",
-  "Mongodb",
+  "MongoDB",
   "MySQL",
   "PostgreSQL",
-  "WebSockets",
-  "WebRTC",
-  "APIs",
-  "Testing (unit and E2E)",
-  "System Design",
-  "TensorFlow",
+  "Quill",
+  "Jest",
+  "React Testing Library",
+  "Web Performance Optimization",
+  "Security Best Practices",
 ];
 
 export const experiences = [
   {
-    period: "2023 — 2024",
-    position: "Frontend Engineer",
-    company: "QuantumSphere Technologies Ltd.",
-    companyLink: "",
+    period: "2025",
+    position: "Frontend Developer",
+    company: "Excellent Link Academy",
+    companyLink: "https://ganiyuabubakar.com",
     companyLogo: "",
-    role: "Frontend Engineer",
+    role: "Frontend Developer (Contract Based)",
     description:
-      "Developed and optimized websites and internal tools, enhancing dashboards, landing pages, and APIs while fostering team collaboration.",
+      "Developed a responsive e-learning platform with dashboards, progress tracking, and course features. Focused on improving usability across devices and streamlining the user experience for both students and administrators.",
     technologies: [
-      "JavaScript",
-      "TypeScript",
-      "HTML & SCSS",
+      "React.js",
+      "Inertia.js",
       "TailwindCSS",
-      "CI/CD",
-      "Bitbucket",
-      "React",
+      "Laravel",
+      "Responsive Design",
+      "UX/UI"
+    ],
+  },
+  {
+    period: "2023 — 2024",
+    position: "Frontend Developer",
+    company: "QuantumSphere Technologies",
+    companyLink: "https://quantumspheretechnologies.com",
+    companyLogo: "",
+    role: "Frontend Developer (Remote Contract Project)",
+    description:
+      "Led development of Monietracka's admin dashboard with performance enhancements using code splitting. Integrated multiple REST APIs and worked closely with backend teams for smooth API communication. Set up CI/CD pipelines with GitHub Actions to automate deployment workflows.",
+    technologies: [
+      "React.js",
       "Next.js",
+      "TypeScript",
+      "Astro",
+      "TailwindCSS",
+      "Vite",
+      "Bitbucket",
+      "GitHub Actions",
+      "CI/CD",
+      "REST APIs"
+    ],
+  },
+  {
+    period: "2023",
+    position: "Frontend Developer",
+    company: "DFS Services",
+    companyLink: "https://dfs-services.netlify.app",
+    companyLogo: "",
+    role: "Frontend Developer (Freelance)",
+    description:
+      "Created a logistics web platform with real-time data visualizations using Vue/Nuxt.js and Chart.js. Collaborated with the team on ensuring security standards and optimizing frontend performance.",
+    technologies: [
+      "Vue.js",
+      "Nuxt.js",
+      "TypeScript",
+      "TailwindCSS",
+      "Chart.js",
+      "Data Visualization",
+      "Web Performance"
+    ],
+  },
+  {
+    period: "2022 — 2023",
+    position: "Frontend Developer",
+    company: "Safe Haven Defence",
+    companyLink: "https://devapp.safehavendefense.com",
+    companyLogo: "",
+    description:
+      "Revamped the security platform by rebuilding the UI/UX with Material UI components, implementing complex state management, and introducing security modules that improved data protection by 30%. Collaborated with backend engineers to ensure seamless API integration.",
+    technologies: [
+      "Next.js",
+      "Material UI",
+      "Redux Toolkit",
+      "TypeScript",
+      "REST APIs",
+      "Git"
+    ],
+  },
+  {
+    period: "2021 — 2022",
+    position: "Frontend Developer",
+    company: "4Runner Global Ltd.",
+    companyLink: "https://4runnerglobal.com",
+    companyLogo: "",
+    description:
+      "Designed and built a responsive company website with shipment tracking capabilities, increasing client engagement by 25%. Created an admin dashboard that streamlined operations and improved efficiency in managing logistics services.",
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "Chart.js",
+      "JavaScript",
+      "REST APIs",
+      "Responsive Design"
     ],
   },
   {
     period: "2020 — Present",
-    position: "Frontend Developer",
-    company: "Freelance",
+    position: "Freelance Frontend Developer",
+    company: "Self-employed",
     companyLink: "",
     companyLogo: "",
     description:
-      "Created engaging websites and digital experiences for clients such as 4Runner Global Ltd, DFS Services, and Safe Haven Defence.",
+      "Designed and developed over 10 custom websites and web applications for clients across various industries. Established strong client relationships through effective communication and delivering high-quality solutions that meet business requirements.",
     technologies: [
       "HTML/CSS",
       "SCSS",
@@ -68,37 +156,64 @@ export const experiences = [
       "Node.js",
     ],
   },
-  // ... Add more entries for other experiences
 ];
 
 
 export const projects = [
   {
-    name: "Safe Haven Defence",
+    name: "Res3archSync Platform",
     description:
-      "Revamped the security platform by improving the UI/UX, adding new features, and optimizing performance. Introduced scalable state management and security modules, making the app more user-friendly and efficient.",
-    technologies: ["Next.js", "Material UI", "Redux Toolkit"],
+      "A real-time academic co-authoring and resource management platform built for a hackathon. Developed real-time collaboration using Yjs + WebSocket with <200ms latency. Integrated AI co-pilot features, version-controlled editing, and JWT-secured sessions.",
+    technologies: ["React", "TypeScript", "Yjs", "Socket.IO", "Cloudinary", "JWT", "Quill", "REST APIs"],
+    externalLink: "",
+  },
+  {
+    name: "CognitiCare AI",
+    description:
+      "Built a responsive Alzheimer's detection UI and care dashboard for a healthcare hackathon. Optimized for <1.2s load time using Next.js SSG. Successfully used by 500+ trial users with intuitive, accessible interface.",
+    technologies: ["React.js", "Next.js", "TypeScript", "TailwindCSS", "Healthcare AI"],
+    externalLink: "",
+  },
+  {
+    name: "Robot-AI Detection Tool",
+    description:
+      "Designed an intuitive and user-friendly UI for an Uncanny Valley-based classifier. Optimized the interface for seamless user interaction and clear results visualization.",
+    technologies: ["React.js", "TypeScript", "UX/UI Design", "Data Visualization"],
+    externalLink: "",
+  },
+  {
+    name: "Monietracka Admin Dashboard",
+    description:
+      "Led the development of a comprehensive admin dashboard enabling real-time data visualization, user management, and system analytics. Implemented performance optimizations that reduced load times by 40% and improved overall user experience.",
+    technologies: ["React.js", "Next.js", "TypeScript", "TailwindCSS", "Redux Toolkit", "Chart.js"],
+    externalLink: "",
+  },
+  {
+    name: "Safe Haven Defence Platform",
+    description:
+      "Revamped the security platform by improving the UI/UX, adding new features, and optimizing performance. Introduced scalable state management and security modules, making the app more user-friendly and efficient with a 30% improvement in data protection.",
+    technologies: ["Next.js", "Material UI", "Redux Toolkit", "TypeScript", "JWT Authentication"],
     externalLink: "https://devapp.safehavendefense.com/",
-  },
-  {
-    name: "4Runner Global Ltd.",
-    description:
-      "Designed and built a sleek website for a logistics company, complete with real-time shipment tracking. Also created an internal dashboard to streamline operations and improve client engagement.",
-    technologies: ["React.js", "Tailwind CSS", "Chart.js"],
-    externalLink: "https://4runnerglobal.com",
-  },
-  {
-    name: "DFS Services",
-    description:
-      "Developed a modern logistics website with features like automated quotes and service customization. Added SEO optimizations to boost visibility and organic traffic.",
-    technologies: ["React.js", "Tailwind CSS", "Framer Motion"],
-    externalLink: "https://dfs-services.netlify.app",
   },
   {
     name: "Excellent Link Academy",
     description:
-      "Built a full-stack e-learning platform with student and admin dashboards, progress tracking, and payment integration. Supported over 500 active users with seamless functionality.",
-    technologies: ["Laravel", "PHP", "React.js", "TypeScript", "TailwindCSS"],
-    externalLink: "https://excellent-link-academy-a4929899cd37.herokuapp.com",
+      "Developed a responsive e-learning platform with student and admin dashboards, progress tracking, and course features. Focused on improving usability across devices and streamlining the user experience for over 500 active users.",
+    technologies: ["React.js", "Inertia.js", "Laravel", "TailwindCSS", "UX Design"],
+    externalLink: "https://ganiyuabubakar.com",
+  },
+  {
+    name: "DFS Services Logistics Platform",
+    description:
+      "Created a logistics web platform with real-time data visualizations using Vue/Nuxt.js and Chart.js. Implemented SEO optimizations that boosted organic traffic by 35% and improved site loading performance.",
+    technologies: ["Vue.js", "Nuxt.js", "TypeScript", "TailwindCSS", "Chart.js"],
+    externalLink: "https://dfs-services.netlify.app",
+  },
+  {
+    name: "4Runner Global Ltd.",
+    description:
+      "Designed and built a responsive website for a logistics company, complete with real-time shipment tracking. Created an internal dashboard that streamlined operations and improved client engagement by 25%.",
+    technologies: ["React.js", "Tailwind CSS", "Chart.js", "REST APIs"],
+    externalLink: "https://4runnerglobal.com",
   }
 ];

@@ -27,21 +27,32 @@ const Header = () => {
             striving to ensure every project I work on is not only fast and accessible
             but also robust in every way.
           </p>
-          <div className="flex space-x-2">
+          <div className="flex space-x-4 mt-4">
             <a
-              href="https://www.linkedin.com/in/sodiq19/"
+              href="/assets/Muhammed Sodiq's CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
+              className="bg-black hover:bg-gray-700 text-white font-medium py-2 px-4 rounded-md transition-colors duration-300"
+              download
             >
-              <img src={linkedin} alt="linkedin_icon" />
+              Download CV
             </a>
-            <a
-              href="https://github.com/msodiq19"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={github} alt="github_icon" />
-            </a>
+            <div className="flex space-x-2 items-center">
+              <a
+                href="https://www.linkedin.com/in/sodiq19/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={linkedin} alt="linkedin_icon" />
+              </a>
+              <a
+                href="https://github.com/msodiq19"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={github} alt="github_icon" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
