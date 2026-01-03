@@ -38,9 +38,37 @@ export const skills = [
   "React Testing Library",
   "Web Performance Optimization",
   "Security Best Practices",
+  "System Architecture",
+  "Technical Documentation",
+  "Architecture Decision Records (ADR)",
+  "SWR (stale-while-revalidate)",
+  "Keycloak/OAuth",
+  "Integration Testing",
+  "Vitest",
 ];
 
 export const experiences = [
+{
+  period: "2025",
+  position: "Frontend Developer",
+  company: "Simestra Marketing Platform",
+  companyLink: "", // Leave blank since it's private/client work
+  companyLogo: "",
+  role: "Frontend Developer (Contract/Client Project)",
+  description:
+    "Architected and developed a production marketing automation platform managing campaigns, AI agents, and customer interactions. Implemented layered architecture with strict separation of concerns, reducing API coupling by 60%. Led migration from Redux to SWR, cutting state management code by 85%. Designed permission-based RBAC system and established integration testing strategy achieving 70% coverage.",
+  technologies: [
+    "React.js",
+    "TypeScript",
+    "SWR",
+    "TailwindCSS",
+    "Keycloak OAuth",
+    "REST APIs",
+    "Vitest",
+    "React Testing Library",
+    "System Architecture"
+  ],
+},
   {
     period: "2025",
     position: "Frontend Developer",
@@ -160,6 +188,24 @@ export const experiences = [
 
 
 export const projects = [
+  {
+    name: "Marketing Platform Architecture Documentation",
+    description:
+      "Comprehensive architecture documentation for a production React marketing automation platform. Documents 5 key architectural decisions including service layer separation, SWR over Redux (85% less boilerplate), backend-handled OAuth, permission-based RBAC, and integration testing strategy. Demonstrates system thinking through 12,000-word case study and Architecture Decision Records.",
+    technologies: [
+      "React.js",
+      "TypeScript",
+      "SWR",
+      "Architecture Design",
+      "System Design",
+      "Technical Writing",
+      "ADR",
+      "Testing Strategy"
+    ],
+    externalLink: "https://github.com/msodiq19/marketing-platform-architecture",
+    githubLink: "https://github.com/msodiq19/marketing-platform-architecture",
+    highlight: true, // Flag this as a unique documentation project
+  },
   {
     name: "Res3archSync Platform",
     description:

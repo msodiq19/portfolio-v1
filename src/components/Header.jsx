@@ -29,7 +29,7 @@ const Header = () => {
           </p>
           <div className="flex space-x-4 mt-4">
             <a
-              href="/assets/Muhammed Sodiq's CV.pdf"
+              href="/assets/Muhammed Sodiq Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-black hover:bg-gray-700 text-white font-medium py-2 px-4 rounded-md transition-colors duration-300"
